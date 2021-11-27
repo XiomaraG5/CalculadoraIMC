@@ -5,11 +5,9 @@ const resultado = document.getElementById(`resultado`)
 const boton = document.getElementById(`btn`);
 boton.addEventListener(`click`, calcular);
 let datos = []
-let fragment = document.createDocumentFragment();
 resultado.classList.add(`w-100`,`mx-auto`)
 
 function calcular () {
-    let sexo = "";
     let peso = Number(document.getElementById(`peso`).value);
     let altura = Number(document.getElementById(`altura`).value);
 
